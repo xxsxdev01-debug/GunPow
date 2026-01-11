@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Tạo thư mục log ngay tại chỗ (vì đã cd vào gameredis)
-mkdir -p logs
+# 1. Tạo cả thư mục logs và data (Cần data để lưu DB của Redis)
+mkdir -p logs data
 
-# Tạo liên kết lệnh để dùng được ./
-ln -sf $(which redis-server) ./redis-server
+# 2. Sửa lệnh ln: Trỏ thẳng vào đường dẫn gốc của Termux để bỏ qua lỗi 'which'
+ln -sf /data/data/com.termux/files/usr/bin/redis-server ./redis-server
 
-# Khởi động các cổng Redis bằng đường dẫn tương đối
+# 3. Khởi động 8 cổng Redis bằng đường dẫn tương đối
 ./redis-server conf/redis-8091.conf > logs/redis-8091.log 2>&1 &
 ./redis-server conf/redis-8092.conf > logs/redis-8092.log 2>&1 &
 ./redis-server conf/redis-8093.conf > logs/redis-8093.log 2>&1 &
