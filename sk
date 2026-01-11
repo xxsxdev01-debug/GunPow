@@ -2,30 +2,31 @@
 
 HOSTNAME="localhost"
 PORT="3306"
-USERNAME="root"
+# Sử dụng chính user Termux để tránh lỗi quyền
+USERNAME=$(whoami) 
 PASSWORD="123456"
 
 DB1="ddd2_world_zh"
 DB2="ddd2_account"
 
-#创建数据库
-sql="GRANT ALL PRIVILEGES ON *.* TO '${USERNAME}'@'%' IDENTIFIED BY '${PASSWORD}'WITH GRANT OPTION;"
-sql0="FLUSH   PRIVILEGES;"
-sql1="create database ${DB1} DEFAULT CHARACTER SET utf8;"
-sql2="create database ${DB2} DEFAULT CHARACTER SET utf8;"
+# Đường dẫn thư mục chứa sql trong Termux
+SQL_PATH="$HOME/GunPow/sql"
 
+# Tạo database
+sql1="create database IF NOT EXISTS ${DB1} DEFAULT CHARACTER SET utf8;"
+sql2="create database IF NOT EXISTS ${DB2} DEFAULT CHARACTER SET utf8;"
 
-mysql -u${USERNAME} -p${PASSWORD} -e "${sql}"
-mysql -u${USERNAME} -p${PASSWORD} -e "${sql0}"
-mysql -h${HOSTNAME} -P${PORT} -u${USERNAME} -p${PASSWORD} -e "${sql1}"
-mysql -h${HOSTNAME} -P${PORT} -u${USERNAME} -p${PASSWORD} -e "${sql2}"
+echo "Đang khởi tạo database..."
+# Thực thi lệnh tạo database
+mariadb -u${USERNAME} -p${PASSWORD} -e "${sql1}"
+mariadb -u${USERNAME} -p${PASSWORD} -e "${sql2}"
 
-#还原数据库 亲-测源-码-网---WW-W-.--qc-y-m-w-.-CO-M-
-mysql -u${USERNAME} -p${PASSWORD} ${DB1} < /root/sql/ddd2_world_zh.sql
-mysql -u${USERNAME} -p${PASSWORD} ${DB2} < /root/sql/ddd2_account.sql
+# Phục hồi dữ liệu (Sửa từ /root/sql thành đường dẫn Termux)
+echo "Đang import dữ liệu World..."
+mariadb -u${USERNAME} -p${PASSWORD} ${DB1} < ${SQL_PATH}/ddd2_world_zh.sql
 
-#给予权限
+echo "Đang import dữ liệu Account..."
+mariadb -u${USERNAME} -p${PASSWORD} ${DB2} < ${SQL_PATH}/ddd2_account.sql
 
-
-echo "数据库创建结束"
+echo "Cài đặt database kết thúc!"
 sleep 0.5
