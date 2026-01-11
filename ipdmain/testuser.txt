@@ -1,1 +1,1 @@
-#测试用户：支持udid,ip,帐号名，帐号ID
+#Người dùng thử nghiệm: Hỗ trợ UDID, IP, tên tài khoản, ID tài khoản
