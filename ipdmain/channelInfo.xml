@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
- 1）version 表示该渠道的客户端要求的版本号。如果客户端版本号对不上客户端会提示升级。可以支持多个版本如200,201
- 2）review 游戏评论地址
- 3）update 游戏下载、更新地址
- 4）channel为true表示可以连接false表示不可连接 
- 5）0表示默认渠道配置，没有配置的渠道都按0渠道配置执行
+ 1) version: Biểu thị số hiệu phiên bản mà phía người dùng (client) của kênh này yêu cầu. Nếu số phiên bản của client không khớp, hệ thống sẽ thông báo nâng cấp. Có thể hỗ trợ nhiều phiên bản cùng lúc, ví dụ: 200, 201.
+ 2) review: Địa chỉ (URL) dùng để gửi bình luận hoặc đánh giá trò chơi.
+ 3) update: Địa chỉ (URL) dùng để tải xuống hoặc cập nhật trò chơi.
+ 4) channel: Nếu để là true nghĩa là có thể kết nối, nếu là false nghĩa là không thể kết nối.
+ 5) 0: Biểu thị cấu hình mặc định cho các kênh. Những kênh nào không được cấu hình riêng thì đều sẽ thực hiện theo cấu hình của kênh 0 này.
+
  -->
 <channels>
     <channel id="0" version="200,201,238,1390,8300,8360,8700" 
