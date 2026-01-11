@@ -1,13 +1,11 @@
 #!/bin/bash
-# 1. Cài lệnh which nếu chưa có (chạy lệnh này trong Termux trước: pkg install debianutils)
+# 1. Tạo thư mục data và logs (Bắt buộc phải có để Redis lưu file)
+mkdir -p logs data
 
-# 2. Tạo liên kết lệnh (Giữ nguyên ý định của bạn)
-ln -sf $(which redis-server) ./redis-server
+# 2. Sửa lệnh ln: Trỏ thẳng vào đường dẫn gốc của Termux (Bỏ qua lệnh which)
+ln -sf /data/data/com.termux/files/usr/bin/redis-server ./redis-server
 
-# 3. Tạo thư mục logs ngay tại chỗ nếu chưa có
-mkdir -p logs
-
-# 4. Sử dụng đường dẫn tương đối (vì start.sh đã cd vào đây rồi)
+# 3. Khởi động các cổng (Giữ nguyên phần dưới của bạn)
 ./redis-server conf/redis-8071.conf > logs/redis-8071.log 2>&1 &
 ./redis-server conf/redis-8072.conf > logs/redis-8072.log 2>&1 &
 ./redis-server conf/redis-8073.conf > logs/redis-8073.log 2>&1 &
