@@ -1,0 +1,35 @@
+[2019-09-06|10:23:42] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 06 10:23:42 CST 2019]; root of context hierarchy
+[2019-09-06|10:23:42] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-06|10:23:42] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-06|10:23:42] Loading properties file from class path resource [redis.properties]
+[2019-09-06|10:23:43] 渠道登陆接口服务器启动...
+[2019-09-06|10:23:43] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-06|10:23:43] jetty-6.1.26
+[2019-09-06|10:23:43] failed SelectChannelConnector@0.0.0.0:16888: java.net.BindException: Address already in use
+[2019-09-06|10:23:43] failed Server@682b2fa: java.net.BindException: Address already in use
+[2019-09-06|10:24:52] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 06 10:24:52 CST 2019]; root of context hierarchy
+[2019-09-06|10:24:52] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-06|10:24:52] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-06|10:24:52] Loading properties file from class path resource [redis.properties]
+[2019-09-06|10:24:52] 渠道登陆接口服务器启动...
+[2019-09-06|10:24:52] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-06|10:24:53] jetty-6.1.26
+[2019-09-06|10:24:53] failed SelectChannelConnector@0.0.0.0:16888: java.net.BindException: Address already in use
+[2019-09-06|10:24:53] failed Server@682b2fa: java.net.BindException: Address already in use
+[2019-09-06|11:56:18] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 06 11:56:18 CST 2019]; root of context hierarchy
+[2019-09-06|11:56:18] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-06|11:56:18] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-06|11:56:19] Loading properties file from class path resource [redis.properties]
+[2019-09-06|11:56:19] 渠道登陆接口服务器启动...
+[2019-09-06|11:56:19] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-06|11:56:19] jetty-6.1.26
+[2019-09-06|11:56:19] failed SelectChannelConnector@0.0.0.0:16888: java.net.BindException: Address already in use
+[2019-09-06|11:56:19] failed Server@682b2fa: java.net.BindException: Address already in use
+[2019-09-06|20:59:33] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 06 20:59:33 CST 2019]; root of context hierarchy
+[2019-09-06|20:59:33] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-06|20:59:34] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-06|20:59:34] Loading properties file from class path resource [redis.properties]
+[2019-09-06|20:59:34] 渠道登陆接口服务器启动...
+[2019-09-06|20:59:34] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-06|20:59:34] jetty-6.1.26
+[2019-09-06|20:59:34] Started SelectChannelConnector@0.0.0.0:16888

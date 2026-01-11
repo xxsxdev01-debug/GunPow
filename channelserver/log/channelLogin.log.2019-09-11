@@ -1,0 +1,32 @@
+[2019-09-11|11:40:52] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Wed Sep 11 11:40:52 CST 2019]; root of context hierarchy
+[2019-09-11|11:40:52] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-11|11:40:52] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-11|11:40:52] Loading properties file from class path resource [redis.properties]
+[2019-09-11|11:40:52] 渠道登陆接口服务器启动...
+[2019-09-11|11:40:52] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-11|11:40:52] jetty-6.1.26
+[2019-09-11|11:40:53] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-11|22:44:07] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Wed Sep 11 22:44:07 CST 2019]; root of context hierarchy
+[2019-09-11|22:44:07] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-11|22:44:07] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-11|22:44:08] Loading properties file from class path resource [redis.properties]
+[2019-09-11|22:44:08] 渠道登陆接口服务器启动...
+[2019-09-11|22:44:08] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-11|22:44:08] jetty-6.1.26
+[2019-09-11|22:44:08] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-11|22:50:29] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Wed Sep 11 22:50:29 CST 2019]; root of context hierarchy
+[2019-09-11|22:50:29] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-11|22:50:29] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-11|22:50:29] Loading properties file from class path resource [redis.properties]
+[2019-09-11|22:50:30] 渠道登陆接口服务器启动...
+[2019-09-11|22:50:30] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-11|22:50:30] jetty-6.1.26
+[2019-09-11|22:50:30] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-11|22:56:46] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Wed Sep 11 22:56:46 CST 2019]; root of context hierarchy
+[2019-09-11|22:56:46] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-11|22:56:47] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-11|22:56:47] Loading properties file from class path resource [redis.properties]
+[2019-09-11|22:56:47] 渠道登陆接口服务器启动...
+[2019-09-11|22:56:47] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-11|22:56:47] jetty-6.1.26
+[2019-09-11|22:56:47] Started SelectChannelConnector@0.0.0.0:16888

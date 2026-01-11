@@ -1,0 +1,95 @@
+[2019-09-13|03:04:41] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 03:04:41 CST 2019]; root of context hierarchy
+[2019-09-13|03:04:41] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|03:04:41] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|03:04:41] Loading properties file from class path resource [redis.properties]
+[2019-09-13|03:04:41] 渠道登陆接口服务器启动...
+[2019-09-13|03:04:41] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|03:04:41] jetty-6.1.26
+[2019-09-13|03:04:42] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|03:14:31] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 03:14:31 CST 2019]; root of context hierarchy
+[2019-09-13|03:14:32] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|03:14:32] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|03:14:32] Loading properties file from class path resource [redis.properties]
+[2019-09-13|03:14:32] 渠道登陆接口服务器启动...
+[2019-09-13|03:14:32] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|03:14:32] jetty-6.1.26
+[2019-09-13|03:14:33] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|03:23:17] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 03:23:17 CST 2019]; root of context hierarchy
+[2019-09-13|03:23:17] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|03:23:17] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|03:23:17] Loading properties file from class path resource [redis.properties]
+[2019-09-13|03:23:18] 渠道登陆接口服务器启动...
+[2019-09-13|03:23:18] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|03:23:18] jetty-6.1.26
+[2019-09-13|03:23:18] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|03:30:12] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 03:30:12 CST 2019]; root of context hierarchy
+[2019-09-13|03:30:12] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|03:30:12] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|03:30:12] Loading properties file from class path resource [redis.properties]
+[2019-09-13|03:30:13] 渠道登陆接口服务器启动...
+[2019-09-13|03:30:13] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|03:30:13] jetty-6.1.26
+[2019-09-13|03:30:13] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|03:35:38] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 03:35:38 CST 2019]; root of context hierarchy
+[2019-09-13|03:35:38] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|03:35:38] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|03:35:38] Loading properties file from class path resource [redis.properties]
+[2019-09-13|03:35:38] 渠道登陆接口服务器启动...
+[2019-09-13|03:35:38] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|03:35:38] jetty-6.1.26
+[2019-09-13|03:35:39] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|22:38:06] failed: hgetAll,key:LOGIN:TIME
+redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisSlotBasedConnectionHandler.getConnectionFromSlot(JedisSlotBasedConnectionHandler.java:62)
+	at redis.clie[2019-09-13|22:44:41] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 22:44:41 CST 2019]; root of context hierarchy
+[2019-09-13|22:44:41] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|22:44:42] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|22:44:42] Loading properties file from class path resource [redis.properties]
+[2019-09-13|22:44:42] 渠道登陆接口服务器启动...
+[2019-09-13|22:44:42] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|22:44:42] jetty-6.1.26
+[2019-09-13|22:44:42] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|22:48:42] failed: hgetAll,key:LOGIN:TIME
+redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisSlotBasedConnectionHandler.getConnectionFromSlot(JedisSlotBasedConnectionHandler.java:62)
+	at redis.clients.jedis.JedisClusterCommand.runWithRetries(JedisClusterCommand.java:115)
+	at redis.clients.jedis.JedisClusterCommand.run(JedisClusterCommand.java:30)
+	at redis.clients.jedis.JedisCluster.hgetAll(JedisCluster.java:502)
+	at com.wyd.redis.base.JClusterCaseBase.hgetAll(JClusterCaseBase.java:225)
+	at com.wyd.redis.service.impl.RedisService.getHashValues(RedisService.java:190)
+	at com.wyd.channel.utils.TaskThread.run(TaskThread.java:28)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 9 more
+[2019-09-13|23:05:22] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 23:05:22 CST 2019]; root of context hierarchy
+[2019-09-13|23:05:22] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|23:05:22] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|23:05:23] Loading properties file from class path resource [redis.properties]
+[2019-09-13|23:05:23] 渠道登陆接口服务器启动...
+[2019-09-13|23:05:23] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|23:05:23] jetty-6.1.26
+[2019-09-13|23:05:23] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|23:31:04] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Sep 13 23:31:04 CST 2019]; root of context hierarchy
+[2019-09-13|23:31:04] Loading XML bean definitions from class path resource [applicationContext.xml]
+[2019-09-13|23:31:04] Loading XML bean definitions from class path resource [redis-config.xml]
+[2019-09-13|23:31:04] Loading properties file from class path resource [redis.properties]
+[2019-09-13|23:31:04] 渠道登陆接口服务器启动...
+[2019-09-13|23:31:04] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[2019-09-13|23:31:04] jetty-6.1.26
+[2019-09-13|23:31:05] Started SelectChannelConnector@0.0.0.0:16888
+[2019-09-13|23:31:05] failed: hgetAll,key:LOGIN:TIME
+redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisSlotBasedConnectionHandler.getConnectionFromSlot(JedisSlotBasedConnectionHandler.java:62)
+	at redis.clients.jedis.JedisClusterCommand.runWithRetries(JedisClusterCommand.java:115)
+	at redis.clients.jedis.JedisClusterCommand.run(JedisClusterCommand.java:30)
+	at redis.clients.jedis.JedisCluster.hgetAll(JedisCluster.java:502)
+	at com.wyd.redis.base.JClusterCaseBase.hgetAll(JClusterCaseBase.java
