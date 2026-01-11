@@ -1,59 +1,71 @@
 #!/bin/bash
-#!/bin/bash
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo ":::                     弹弹岛2开始启动                        :::"
+echo ":::                BẮT ĐẦU KHỞI ĐỘNG ĐẠN ĐẠN ĐẢO 2             :::"
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo ":::                     弹弹岛2Redis集群启动                   :::"
-cd /ddd/redis/gameredis
+echo ":::             Khởi động Cluster Redis Đạn Đạn Đảo 2          :::"
+cd /redis/gameredis
 ./run8.sh
 sleep 2
-cd /ddd/redis/ipdredis
+
+cd /redis/ipdredis
 ./run8.sh
 sleep 2
-echo "::                      服务分区公告器启动!                     ::"
-cd /ddd/ipdmain
+
+echo "::             Khởi động Trình thông báo phân vùng!             ::"
+cd /ipdmain
 ./run8.sh
 sleep 2
-echo "::                      渠道登陆接口启动!                       ::"
-cd /ddd/channelserver
+
+echo "::             Khởi động Giao diện đăng nhập kênh!              ::"
+cd /channelserver
 ./run8.sh
 sleep 2
-echo "::                      战斗管理服务启动!                       ::"
-cd /ddd/battleManage
+
+echo "::             Khởi động Dịch vụ quản lý chiến đấu!             ::"
+cd /battleManage
 ./run8.sh
 sleep 2
-echo "::                      战斗服务启动成功！                      ::"
-cd /ddd/battleServer
+
+echo "::             Khởi động Dịch vụ chiến đấu thành công!          ::"
+cd /battleServer
 ./run8.sh
 sleep 2
-echo "::                      世界聊天服务启动!                       ::"
-cd /ddd/chatServer
+
+echo "::             Khởi động Dịch vụ Chat thế giới!                 ::"
+cd /chatServer
 ./run8.sh
 sleep 2
-echo "::                      跨服好友服务启动!                       ::"
-cd /ddd/friendServer
+
+echo "::             Khởi động Dịch vụ Bạn bè liên server!            ::"
+cd /friendServer
 ./run8.sh
 sleep 2
-echo "::                      角色信息服务启动!                       ::"
-cd /ddd/playerServer
+
+echo "::             Khởi động Dịch vụ Thông tin nhân vật!            ::"
+cd /playerServer
 ./run8.sh
 sleep 2
-echo "::                      世界房间服务启动!                       ::"
-cd /ddd/roomServer
+
+echo "::             Khởi động Dịch vụ Phòng thế giới!                ::"
+cd /roomServer
 ./run8.sh
 sleep 2
-echo "::                      游戏交易服务启动!                       ::"
-cd /ddd/transactionServer
+
+echo "::             Khởi động Dịch vụ Giao dịch game!                ::"
+cd /transactionServer
 ./run8.sh
 sleep 2
-echo "::                      数据分发服务启动!                       ::"
-cd /ddd/dispatchServer
+
+echo "::             Khởi động Dịch vụ Phân phối dữ liệu!             ::"
+cd /dispatchServer
 ./run8.sh
 sleep 2
-echo "::                      游戏世界服务启动!                       ::"
-cd /ddd/worldServer
+
+echo "::             Khởi động Dịch vụ World Server!                  ::"
+cd /worldServer
 ./run8.sh
 sleep 2
+
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo ":::                     弹弹岛2启动完成                        :::"
+echo ":::                ĐẠN ĐẠN ĐẢO 2 KHỞI ĐỘNG HOÀN TẤT            :::"
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
