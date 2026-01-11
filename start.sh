@@ -3,66 +3,70 @@ echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo ":::                BẮT ĐẦU KHỞI ĐỘNG ĐẠN ĐẠN ĐẢO 2             :::"
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo ":::             Khởi động Cluster Redis Đạn Đạn Đảo 2          :::"
-cd /redis/gameredis
+
+# Quay về thư mục Home của Termux để đảm bảo đường dẫn đúng
+cd $HOME
+
+cd GunPow/redis/gameredis
 ./run.sh
 sleep 2
 
-cd /redis/ipdredis
+cd $HOME/GunPow/redis/ipdredis
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Trình thông báo phân vùng!             ::"
-cd /ipdmain
+cd $HOME/GunPow/ipdmain
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Giao diện đăng nhập kênh!              ::"
-cd /channelserver
+cd $HOME/GunPow/channelserver
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ quản lý chiến đấu!             ::"
-cd /battleManage
+cd $HOME/GunPow/battleManage
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ chiến đấu thành công!          ::"
-cd /battleServer
+cd $HOME/GunPow/battleServer
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ Chat thế giới!                 ::"
-cd /chatServer
+cd $HOME/GunPow/chatServer
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ Bạn bè liên server!            ::"
-cd /friendServer
+cd $HOME/GunPow/friendServer
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ Thông tin nhân vật!            ::"
-cd /playerServer
+cd $HOME/GunPow/playerServer
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ Phòng thế giới!                ::"
-cd /roomServer
+cd $HOME/GunPow/roomServer
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ Giao dịch game!                ::"
-cd /transactionServer
+cd $HOME/GunPow/transactionServer
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ Phân phối dữ liệu!             ::"
-cd /dispatchServer
+cd $HOME/GunPow/dispatchServer
 ./run.sh
 sleep 2
 
 echo "::             Khởi động Dịch vụ World Server!                  ::"
-cd /worldServer
+cd $HOME/GunPow/worldServer
 ./run.sh
 sleep 2
 
