@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-1）status -1不可见0无（开启）1维护（测试用户可进）2审核3畅通4火爆5拥挤6满人
-2）tips 0无1新服2推荐3热门
-3）bulletin 维护公告
-4）server值表示推荐给新用户权重
-5）version表示允许可见的版本号;多个用逗号分隔;-1表示所有
-6）channel表示允许可见的版本号;多个用逗号分隔;-1表示所有
+ 1) status: -1 không hiển thị, 0 bình thường (mở), 1 bảo trì (người dùng thử nghiệm có thể vào), 2 kiểm duyệt, 3 thông suốt, 4 bùng nổ, 5 đông đúc, 6 đầy người.
+2) tips: 0 không có, 1 máy chủ mới, 2 đề xuất, 3 thịnh hành.
+3) bulletin: Thông báo bảo trì.
+4) giá trị server: Biểu thị trọng số đề xuất cho người dùng mới.
+5) version: Biểu thị số hiệu phiên bản cho phép hiển thị; nhiều phiên bản cách nhau bằng dấu phẩy; -1 biểu thị tất cả.
+6) channel: Biểu thị kênh cho phép hiển thị; nhiều kênh cách nhau bằng dấu phẩy; -1 biểu thị tất cả.
  -->
 <servers>
-	<server id="1" name="弹弹岛2贺岁区" status="4" statustime="0" tips="1" tipstime="0" bulletin="服务器临时维护150分钟" groupname="所有区" groupid="1" version="-1" channel="-1">0</server>
+	<server id="1" name="GunPow Private Server" status="4" statustime="0" tips="1" tipstime="0" bulletin="Nếu Lỗi Có Thể Inbox Kim Bích Để Được Hướng Dẫn" groupname="Tất cả" groupid="1" version="-1" channel="-1">0</server>
 </servers>
+
 
