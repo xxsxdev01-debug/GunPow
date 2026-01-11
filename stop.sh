@@ -1,59 +1,71 @@
 #!/bin/bash
-#!/bin/bash
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo ":::                     弹弹岛2开始停止!                        :::"
+echo ":::                BẮT ĐẦU DỪNG ĐẠN ĐẠN ĐẢO 2                  :::"
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo ":::                     弹弹岛2Redis集群停止                   :::"
-cd /ddd/redis/gameredis
+echo ":::             Dừng cụm Redis Cluster Đạn Đạn Đảo 2           :::"
+cd /redis/gameredis
 ./kill.sh
 sleep 2
-cd /ddd/redis/ipdredis
+
+cd /redis/ipdredis
 ./kill.sh
 sleep 2
-echo "::                      服务分区公告器停止!                     ::"
-cd /ddd/ipdmain
+
+echo "::             Dừng Trình thông báo phân vùng!                  ::"
+cd /ipdmain
 ./kill.sh
 sleep 2
-echo "::                      渠道登陆接口停止!                       ::"
-cd /ddd/channelserver
+
+echo "::             Dừng Giao diện đăng nhập kênh!                   ::"
+cd /channelserver
 ./kill.sh
 sleep 2
-echo "::                      战斗管理服务停止!                       ::"
-cd /ddd/battleManage
+
+echo "::             Dừng Dịch vụ quản lý chiến đấu!                  ::"
+cd /battleManage
 ./kill.sh
 sleep 2
-echo "::                      战斗服务停止成功！                      ::"
-cd /ddd/battleServer
+
+echo "::             Dừng Dịch vụ chiến đấu thành công!               ::"
+cd /battleServer
 ./kill.sh
 sleep 2
-echo "::                      世界聊天服务停止!                       ::"
-cd /ddd/chatServer
+
+echo "::             Dừng Dịch vụ Chat thế giới!                      ::"
+cd /chatServer
 ./kill.sh
 sleep 2
-echo "::                      跨服好友服务停止!                       ::"
-cd /ddd/friendServer
+
+echo "::             Dừng Dịch vụ Bạn bè liên server!                 ::"
+cd /friendServer
 ./kill.sh
 sleep 2
-echo "::                      角色信息服务停止!                       ::"
-cd /ddd/playerServer
+
+echo "::             Dừng Dịch vụ Thông tin nhân vật!                 ::"
+cd /playerServer
 ./kill.sh
 sleep 2
-echo "::                      世界房间服务停止!                       ::"
-cd /ddd/roomServer
+
+echo "::             Dừng Dịch vụ Phòng thế giới!                     ::"
+cd /roomServer
 ./kill.sh
 sleep 2
-echo "::                      游戏交易服务停止!                       ::"
-cd /ddd/transactionServer
+
+echo "::             Dừng Dịch vụ Giao dịch game!                     ::"
+cd /transactionServer
 ./kill.sh
 sleep 2
-echo "::                      数据分发服务停止!                       ::"
-cd /ddd/dispatchServer
+
+echo "::             Dừng Dịch vụ Phân phối dữ liệu!                  ::"
+cd /dispatchServer
 ./kill.sh
 sleep 2
-echo "::                      游戏世界服务停止!                       ::"
-cd /ddd/worldServer
+
+echo "::             Dừng Dịch vụ World Server!                       ::"
+cd /worldServer
 ./kill.sh
 sleep 2
+
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo ":::                     弹弹岛2停止完成!                        :::"
+echo ":::                ĐẠN ĐẠN ĐẢO 2 ĐÃ DỪNG HOÀN TẤT              :::"
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
